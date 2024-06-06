@@ -85,7 +85,7 @@ Removing react-java-mysql-db-1       ... done
 Removing network react-java-mysql-default
 ```
 
-## How to create the repo - added by GufoAC
+## How to create the local repository - added by GufoAC
 
 Reference https://git-scm.com/docs/git-sparse-checkout
 
