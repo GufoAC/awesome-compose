@@ -83,3 +83,18 @@ Removing react-java-mysql-frontend-1 ... done
 Removing react-java-mysql-db-1       ... done
 Removing network react-java-mysql-default
 ```
+
+## How to create the repo - added by GufoAC
+
+Reference https://git-scm.com/docs/git-sparse-checkout
+
+```
+cd /c/Examples/reactsamples
+mkdir r1
+cd r1
+git init
+git remote add -f origin https://github.com/docker/awesome-compose.git
+git config core.sparseCheckout true
+echo "react-java-mysql" >> .git/info/sparse-checkout
+git pull origin master
+```
